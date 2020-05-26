@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5441083e-4be9-4d43-88af-9cab4a1db77a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71deaa4b8471a0f44c590ee5d4cb99ed57660d46" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71deaa4b8471a0f44c590ee5d4cb99ed57660d46" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bc2e800e0544e0d0a75823dd04c202232f92107" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bc2e800e0544e0d0a75823dd04c202232f92107" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lfool/test01/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lfool/test01/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/com/lfool/test01/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/com/lfool/test01/TriangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.css/coverage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.img/arrowDown.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.img/arrowUp.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lfool/test01/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lfool/test01/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/com/lfool/test01/TriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/com/lfool/test01/TriangleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_BLOCK.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_CLASS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_LINE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_METHOD.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/softtest-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/.classes/CommissionTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/.classes/NextDateTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/.classes/TriangleTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_BLOCK.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_CLASS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_LINE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_METHOD.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="383" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="D:\_hhh\softtest\softtest\test01\target\result" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1cRkvRBcp0xIEJuBOn6f0W1dOYB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lfool.test01" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.test.com.lfool.test01 in softtest">
+    <configuration name="CommissionTest.testCommission" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="softtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.lfool.test01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.lfool.test01" />
+      <option name="MAIN_CLASS_NAME" value="test.com.lfool.test01.CommissionTest" />
+      <option name="METHOD_NAME" value="testCommission" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="softtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.lfool.test01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.lfool.test01" />
+      <option name="MAIN_CLASS_NAME" value="test.com.lfool.test01.NextDateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextDateTest.testRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="softtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.lfool.test01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.lfool.test01" />
+      <option name="MAIN_CLASS_NAME" value="test.com.lfool.test01.NextDateTest" />
+      <option name="METHOD_NAME" value="testRun" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="softtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.lfool.test01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.lfool.test01" />
+      <option name="MAIN_CLASS_NAME" value="test.com.lfool.test01.TriangleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.com.lfool.test01 in softtest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="softtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.lfool.test01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.lfool.test01" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TriangleTest" />
+      <item itemvalue="JUnit.NextDateTest.testRun" />
+      <item itemvalue="JUnit.NextDateTest" />
+      <item itemvalue="JUnit.test.com.lfool.test01 in softtest" />
+      <item itemvalue="JUnit.CommissionTest.testCommission" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test.com.lfool.test01 in softtest" />
+        <item itemvalue="JUnit.CommissionTest.testCommission" />
+        <item itemvalue="JUnit.NextDateTest" />
+        <item itemvalue="JUnit.NextDateTest.testRun" />
+        <item itemvalue="JUnit.TriangleTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5441083e-4be9-4d43-88af-9cab4a1db77a" name="Default Changelist" comment="" />
+      <created>1590499024670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590499024670</updated>
+      <workItem from="1590499033834" duration="3690000" />
+      <workItem from="1590502745458" duration="10483000" />
+      <workItem from="1590520998943" duration="482000" />
+      <workItem from="1590521535487" duration="135000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/softtest$NextDateTest.ic" NAME="NextDateTest Coverage Results" MODIFIED="1590514186258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.com.lfool.test01.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/softtest$TriangleTest.ic" NAME="TriangleTest Coverage Results" MODIFIED="1590502638536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.com.lfool.test01.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/softtest$test_com_lfool_test01_in_softtest.ic" NAME="test.com.lfool.test01 in softtest Coverage Results" MODIFIED="1590517382692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.com.lfool.test01.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/test01$test_com_lfool_test01_in_softtest.ic" NAME="test.com.lfool.test01 in softtest Coverage Results" MODIFIED="1590521560463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.com.lfool.test01.*</FILTER>
+    </SUITE>
+  </component>
+</project>
