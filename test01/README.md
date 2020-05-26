@@ -32,4 +32,4 @@
 
 ## The Result Of JaCoCo Coverage Test
 
-**[Result Page](https://lfool.github.io/SoftTest/test01/target/result/index.html)**
+**[Result Page](./target/result/index.html)**
