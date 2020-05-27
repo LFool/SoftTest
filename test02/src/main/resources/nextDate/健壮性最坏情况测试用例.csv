@@ -1,0 +1,344 @@
+用例编号,v1,v2,v3,期望值
+1,0,0,1811,invalid Input Date
+2,0,0,1812,invalid Input Date
+3,0,0,1813,invalid Input Date
+4,0,0,1912,invalid Input Date
+5,0,0,2011,invalid Input Date
+6,0,0,2012,invalid Input Date
+7,0,0,2013,invalid Input Date
+8,0,1,1811,invalid Input Date
+9,0,1,1812,invalid Input Date
+10,0,1,1813,invalid Input Date
+11,0,1,1912,invalid Input Date
+12,0,1,2011,invalid Input Date
+13,0,1,2012,invalid Input Date
+14,0,1,2013,invalid Input Date
+15,0,2,1811,invalid Input Date
+16,0,2,1812,invalid Input Date
+17,0,2,1813,invalid Input Date
+18,0,2,1912,invalid Input Date
+19,0,2,2011,invalid Input Date
+20,0,2,2012,invalid Input Date
+21,0,2,2013,invalid Input Date
+22,0,16,1811,invalid Input Date
+23,0,16,1812,invalid Input Date
+24,0,16,1813,invalid Input Date
+25,0,16,1912,invalid Input Date
+26,0,16,2011,invalid Input Date
+27,0,16,2012,invalid Input Date
+28,0,16,2013,invalid Input Date
+29,0,30,1811,invalid Input Date
+30,0,30,1812,invalid Input Date
+31,0,30,1813,invalid Input Date
+32,0,30,1912,invalid Input Date
+33,0,30,2011,invalid Input Date
+34,0,30,2012,invalid Input Date
+35,0,30,2013,invalid Input Date
+36,0,31,1811,invalid Input Date
+37,0,31,1812,invalid Input Date
+38,0,31,1813,invalid Input Date
+39,0,31,1912,invalid Input Date
+40,0,31,2011,invalid Input Date
+41,0,31,2012,invalid Input Date
+42,0,31,2013,invalid Input Date
+43,0,32,1811,invalid Input Date
+44,0,32,1812,invalid Input Date
+45,0,32,1813,invalid Input Date
+46,0,32,1912,invalid Input Date
+47,0,32,2011,invalid Input Date
+48,0,32,2012,invalid Input Date
+49,0,32,2013,invalid Input Date
+50,1,0,1811,invalid Input Date
+51,1,0,1812,invalid Input Date
+52,1,0,1813,invalid Input Date
+53,1,0,1912,invalid Input Date
+54,1,0,2011,invalid Input Date
+55,1,0,2012,invalid Input Date
+56,1,0,2013,invalid Input Date
+57,1,1,1811,1/2/1811
+58,1,1,1812,1/2/1812
+59,1,1,1813,1/2/1813
+60,1,1,1912,1/2/1912
+61,1,1,2011,1/2/2011
+62,1,1,2012,1/2/2012
+63,1,1,2013,1/2/2013
+64,1,2,1811,1/3/1811
+65,1,2,1812,1/3/1812
+66,1,2,1813,1/3/1813
+67,1,2,1912,1/3/1912
+68,1,2,2011,1/3/2011
+69,1,2,2012,1/3/2012
+70,1,2,2013,1/3/2013
+71,1,16,1811,1/17/1811
+72,1,16,1812,1/17/1812
+73,1,16,1813,1/17/1813
+74,1,16,1912,1/17/1912
+75,1,16,2011,1/17/2011
+76,1,16,2012,1/17/2012
+77,1,16,2013,1/17/2013
+78,1,30,1811,1/31/1811
+79,1,30,1812,1/31/1812
+80,1,30,1813,1/31/1813
+81,1,30,1912,1/31/1912
+82,1,30,2011,1/31/2011
+83,1,30,2012,1/31/2012
+84,1,30,2013,1/31/2013
+85,1,31,1811,2/1/1811
+86,1,31,1812,2/1/1812
+87,1,31,1813,2/1/1813
+88,1,31,1912,2/1/1912
+89,1,31,2011,2/1/2011
+90,1,31,2012,2/1/2012
+91,1,31,2013,2/1/2013
+92,1,32,1811,2/1/1811
+93,1,32,1812,2/1/1812
+94,1,32,1813,2/1/1813
+95,1,32,1912,2/1/1912
+96,1,32,2011,2/1/2011
+97,1,32,2012,2/1/2012
+98,1,32,2013,2/1/2013
+99,2,0,1811,invalid Input Date
+100,2,0,1812,invalid Input Date
+101,2,0,1813,invalid Input Date
+102,2,0,1912,invalid Input Date
+103,2,0,2011,invalid Input Date
+104,2,0,2012,invalid Input Date
+105,2,0,2013,invalid Input Date
+106,2,1,1811,2/2/1811
+107,2,1,1812,2/2/1812
+108,2,1,1813,2/2/1813
+109,2,1,1912,2/2/1912
+110,2,1,2011,2/2/2011
+111,2,1,2012,2/2/2012
+112,2,1,2013,2/2/2013
+113,2,2,1811,2/3/1811
+114,2,2,1812,2/3/1812
+115,2,2,1813,2/3/1813
+116,2,2,1912,2/3/1912
+117,2,2,2011,2/3/2011
+118,2,2,2012,2/3/2012
+119,2,2,2013,2/3/2013
+120,2,16,1811,2/17/1811
+121,2,16,1812,2/17/1812
+122,2,16,1813,2/17/1813
+123,2,16,1912,2/17/1912
+124,2,16,2011,2/17/2011
+125,2,16,2012,2/17/2012
+126,2,16,2013,2/17/2013
+127,2,30,1811,Invalid Input Date
+128,2,30,1812,Invalid Input Date
+129,2,30,1813,Invalid Input Date
+130,2,30,1912,Invalid Input Date
+131,2,30,2011,Invalid Input Date
+132,2,30,2012,Invalid Input Date
+133,2,30,2013,Invalid Input Date
+134,2,31,1811,Invalid Input Date
+135,2,31,1812,Invalid Input Date
+136,2,31,1813,Invalid Input Date
+137,2,31,1912,Invalid Input Date
+138,2,31,2011,Invalid Input Date
+139,2,31,2012,Invalid Input Date
+140,2,31,2013,Invalid Input Date
+141,2,32,1811,Invalid Input Date
+142,2,32,1812,Invalid Input Date
+143,2,32,1813,Invalid Input Date
+144,2,32,1912,Invalid Input Date
+145,2,32,2011,Invalid Input Date
+146,2,32,2012,Invalid Input Date
+147,2,32,2013,Invalid Input Date
+148,6,0,1811,invalid Input Date
+149,6,0,1812,invalid Input Date
+150,6,0,1813,invalid Input Date
+151,6,0,1912,invalid Input Date
+152,6,0,2011,invalid Input Date
+153,6,0,2012,invalid Input Date
+154,6,0,2013,invalid Input Date
+155,6,1,1811,6/2/1811
+156,6,1,1812,6/2/1812
+157,6,1,1813,6/2/1813
+158,6,1,1912,6/2/1912
+159,6,1,2011,6/2/2011
+160,6,1,2012,6/2/2012
+161,6,1,2013,6/2/2013
+162,6,2,1811,6/3/1811
+163,6,2,1812,6/3/1812
+164,6,2,1813,6/3/1813
+165,6,2,1912,6/3/1912
+166,6,2,2011,6/3/2011
+167,6,2,2012,6/3/2012
+168,6,2,2013,6/3/2013
+169,6,16,1811,6/17/1811
+170,6,16,1812,6/17/1812
+171,6,16,1813,6/17/1813
+172,6,16,1912,6/17/1912
+173,6,16,2011,6/17/2011
+174,6,16,2012,6/17/2012
+175,6,16,2013,6/17/2013
+176,6,30,1811,7/1/1811
+177,6,30,1812,7/1/1812
+178,6,30,1813,7/1/1813
+179,6,30,1912,7/1/1912
+180,6,30,2011,7/1/2011
+181,6,30,2012,7/1/2012
+182,6,30,2013,7/1/2013
+183,6,31,1811,Invalid Input Date
+184,6,31,1812,Invalid Input Date
+185,6,31,1813,Invalid Input Date
+186,6,31,1912,Invalid Input Date
+187,6,31,2011,Invalid Input Date
+188,6,31,2012,Invalid Input Date
+189,6,31,2013,Invalid Input Date
+190,6,32,1811,Invalid Input Date
+191,6,32,1812,Invalid Input Date
+192,6,32,1813,Invalid Input Date
+193,6,32,1912,Invalid Input Date
+194,6,32,2011,Invalid Input Date
+195,6,32,2012,Invalid Input Date
+196,6,32,2013,Invalid Input Date
+197,11,0,1811,invalid Input Date
+198,11,0,1812,invalid Input Date
+199,11,0,1813,invalid Input Date
+200,11,0,1912,invalid Input Date
+201,11,0,2011,invalid Input Date
+202,11,0,2012,invalid Input Date
+203,11,0,2013,invalid Input Date
+204,11,1,1811,11/2/1811
+205,11,1,1812,11/2/1812
+206,11,1,1813,11/2/1813
+207,11,1,1912,11/2/1912
+208,11,1,2011,11/2/2011
+209,11,1,2012,11/2/2012
+210,11,1,2013,11/2/2013
+211,11,2,1811,11/3/1811
+212,11,2,1812,11/3/1812
+213,11,2,1813,11/3/1813
+214,11,2,1912,11/3/1912
+215,11,2,2011,11/3/2011
+216,11,2,2012,11/3/2012
+217,11,2,2013,11/3/2013
+218,11,16,1811,11/17/1811
+219,11,16,1812,11/17/1812
+220,11,16,1813,11/17/1813
+221,11,16,1912,11/17/1912
+222,11,16,2011,11/17/2011
+223,11,16,2012,11/17/2012
+224,11,16,2013,11/17/2013
+225,11,30,1811,12/1/1811
+226,11,30,1812,12/1/1812
+227,11,30,1813,12/1/1813
+228,11,30,1912,12/1/1912
+229,11,30,2011,12/1/2011
+230,11,30,2012,12/1/2012
+231,11,30,2013,12/1/2013
+232,11,31,1811,Invalid Input Date
+233,11,31,1812,Invalid Input Date
+234,11,31,1813,Invalid Input Date
+235,11,31,1912,Invalid Input Date
+236,11,31,2011,Invalid Input Date
+237,11,31,2012,Invalid Input Date
+238,11,31,2013,Invalid Input Date
+239,11,32,1811,Invalid Input Date
+240,11,32,1812,Invalid Input Date
+241,11,32,1813,Invalid Input Date
+242,11,32,1912,Invalid Input Date
+243,11,32,2011,Invalid Input Date
+244,11,32,2012,Invalid Input Date
+245,11,32,2013,Invalid Input Date
+246,12,0,1811,invalid Input Date
+247,12,0,1812,invalid Input Date
+248,12,0,1813,invalid Input Date
+249,12,0,1912,invalid Input Date
+250,12,0,2011,invalid Input Date
+251,12,0,2012,invalid Input Date
+252,12,0,2013,invalid Input Date
+253,12,1,1811,12/2/1811
+254,12,1,1812,12/2/1812
+255,12,1,1813,12/2/1813
+256,12,1,1912,12/2/1912
+257,12,1,2011,12/2/2011
+258,12,1,2012,12/2/2012
+259,12,1,2013,12/2/2013
+260,12,2,1811,12/3/1811
+261,12,2,1812,12/3/1812
+262,12,2,1813,12/3/1813
+263,12,2,1912,12/3/1912
+264,12,2,2011,12/3/2011
+265,12,2,2012,12/3/2012
+266,12,2,2013,12/3/2013
+267,12,16,1811,12/17/1811
+268,12,16,1812,12/17/1812
+269,12,16,1813,12/17/1813
+270,12,16,1912,12/17/1912
+271,12,16,2011,12/17/2011
+272,12,16,2012,12/17/2012
+273,12,16,2013,12/17/2013
+274,12,30,1811,12/31/1811
+275,12,30,1812,12/31/1812
+276,12,30,1813,12/31/1813
+277,12,30,1912,12/31/1912
+278,12,30,2011,12/31/2011
+279,12,30,2012,12/31/2012
+280,12,30,2013,12/31/2013
+281,12,31,1811,1/1/1812
+282,12,31,1812,1/1/1813
+283,12,31,1813,1/1/1814
+284,12,31,1912,1/1/1913
+285,12,31,2011,1/1/2012
+286,12,31,2012,1/1/2013
+287,12,31,2013,1/1/2014
+288,12,32,1811,1/1/1812
+289,12,32,1812,1/1/1813
+290,12,32,1813,1/1/1814
+291,12,32,1912,1/1/1913
+292,12,32,2011,1/1/2012
+293,12,32,2012,1/1/2013
+294,12,32,2013,1/1/2014
+295,13,0,1811,invalid Input Date
+296,13,0,1812,invalid Input Date
+297,13,0,1813,invalid Input Date
+298,13,0,1912,invalid Input Date
+299,13,0,2011,invalid Input Date
+300,13,0,2012,invalid Input Date
+301,13,0,2013,invalid Input Date
+302,13,1,1811,invalid Input Date
+303,13,1,1812,invalid Input Date
+304,13,1,1813,invalid Input Date
+305,13,1,1912,invalid Input Date
+306,13,1,2011,invalid Input Date
+307,13,1,2012,invalid Input Date
+308,13,1,2013,invalid Input Date
+309,13,2,1811,invalid Input Date
+310,13,2,1812,invalid Input Date
+311,13,2,1813,invalid Input Date
+312,13,2,1912,invalid Input Date
+313,13,2,2011,invalid Input Date
+314,13,2,2012,invalid Input Date
+315,13,2,2013,invalid Input Date
+316,13,16,1811,invalid Input Date
+317,13,16,1812,invalid Input Date
+318,13,16,1813,invalid Input Date
+319,13,16,1912,invalid Input Date
+320,13,16,2011,invalid Input Date
+321,13,16,2012,invalid Input Date
+322,13,16,2013,invalid Input Date
+323,13,30,1811,invalid Input Date
+324,13,30,1812,invalid Input Date
+325,13,30,1813,invalid Input Date
+326,13,30,1912,invalid Input Date
+327,13,30,2011,invalid Input Date
+328,13,30,2012,invalid Input Date
+329,13,30,2013,invalid Input Date
+330,13,31,1811,invalid Input Date
+331,13,31,1812,invalid Input Date
+332,13,31,1813,invalid Input Date
+333,13,31,1912,invalid Input Date
+334,13,31,2011,invalid Input Date
+335,13,31,2012,invalid Input Date
+336,13,31,2013,invalid Input Date
+337,13,32,1811,invalid Input Date
+338,13,32,1812,invalid Input Date
+339,13,32,1813,invalid Input Date
+340,13,32,1912,invalid Input Date
+341,13,32,2011,invalid Input Date
+342,13,32,2012,invalid Input Date
+343,13,32,2013,invalid Input Date

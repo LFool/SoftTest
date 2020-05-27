@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5441083e-4be9-4d43-88af-9cab4a1db77a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71deaa4b8471a0f44c590ee5d4cb99ed57660d46" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71deaa4b8471a0f44c590ee5d4cb99ed57660d46" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bc2e800e0544e0d0a75823dd04c202232f92107" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bc2e800e0544e0d0a75823dd04c202232f92107" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lfool/test01/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lfool/test01/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/com/lfool/test01/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/com/lfool/test01/TriangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.css/coverage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.img/arrowDown.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.img/arrowUp.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lfool/test01/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lfool/test01/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/com/lfool/test01/TriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/com/lfool/test01/TriangleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_BLOCK.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_CLASS.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_LINE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_METHOD.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/softtest-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/.classes/CommissionTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/.classes/NextDateTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/.classes/TriangleTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_BLOCK.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_CLASS.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_CLASS_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_LINE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_LINE_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_METHOD.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_METHOD_DESC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test.com.lfool.test01/index_SORT_BY_NAME_DESC.html" beforeDir="false" />
-    </list>
+    <list default="true" id="5441083e-4be9-4d43-88af-9cab4a1db77a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,6 +197,7 @@
       <workItem from="1590502745458" duration="10483000" />
       <workItem from="1590520998943" duration="482000" />
       <workItem from="1590521535487" duration="135000" />
+      <workItem from="1590561687812" duration="24000" />
     </task>
     <servers />
   </component>

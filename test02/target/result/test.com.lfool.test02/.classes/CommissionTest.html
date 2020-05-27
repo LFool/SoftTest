@@ -1,0 +1,132 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: CommissionTest</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">test.com.lfool.test02</a> ]
+</div>
+
+<h1>Coverage Summary for Class: CommissionTest (test.com.lfool.test02)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CommissionTest</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (5/ 5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (10/ 10)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package test.com.lfool.test02;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import com.lfool.test02.Commission;
+<i>4</i>&nbsp;import com.lfool.test02.Compute;
+<i>5</i>&nbsp;import org.junit.Assert;
+<i>6</i>&nbsp;import org.junit.jupiter.params.ParameterizedTest;
+<i>7</i>&nbsp;import org.junit.jupiter.params.provider.CsvFileSource;
+<i>8</i>&nbsp;
+<i>9</i>&nbsp;/** 
+<i>10</i>&nbsp;* Commission Tester. 
+<i>11</i>&nbsp;* 
+<i>12</i>&nbsp;* @author &lt;Authors name&gt; 
+<i>13</i>&nbsp;* @since &lt;pre&gt;05/27/2020&lt;/pre&gt; 
+<i>14</i>&nbsp;* @version 1.0 
+<i>15</i>&nbsp;*/ 
+<b class="fc"><i>16</i>&nbsp;public class CommissionTest {</b>
+<i>17</i>&nbsp;
+<b class="fc"><i>18</i>&nbsp;    private Compute compute = new Commission();</b>
+<i>19</i>&nbsp;
+<i>20</i>&nbsp;    /**
+<i>21</i>&nbsp;     *
+<i>22</i>&nbsp;     * Method: classify(int a, int b, int c)
+<i>23</i>&nbsp;     *
+<i>24</i>&nbsp;     */
+<i>25</i>&nbsp;    @ParameterizedTest
+<i>26</i>&nbsp;    @CsvFileSource(resources = &quot;/commission/一般边界测试用例.csv&quot;, numLinesToSkip = 1)
+<i>27</i>&nbsp;    void testNormalBoundary(int num, int a, int b, int c, String result) {
+<b class="fc"><i>28</i>&nbsp;        Assert.assertEquals(result, compute.compute(a, b, c));</b>
+<b class="fc"><i>29</i>&nbsp;    }</b>
+<i>30</i>&nbsp;
+<i>31</i>&nbsp;    @ParameterizedTest
+<i>32</i>&nbsp;    @CsvFileSource(resources = &quot;/commission/最坏情况测试用例.csv&quot;, numLinesToSkip = 1)
+<i>33</i>&nbsp;    void testWorstCaseBoundary(int num, int a, int b, int c, String result) {
+<b class="fc"><i>34</i>&nbsp;        Assert.assertEquals(result, compute.compute(a, b, c));</b>
+<b class="fc"><i>35</i>&nbsp;    }</b>
+<i>36</i>&nbsp;
+<i>37</i>&nbsp;    @ParameterizedTest
+<i>38</i>&nbsp;    @CsvFileSource(resources = &quot;/commission/健壮测试用例.csv&quot;, numLinesToSkip = 1)
+<i>39</i>&nbsp;    void testRobustBoundary(int num, int a, int b, int c, String result) {
+<b class="fc"><i>40</i>&nbsp;        Assert.assertEquals(result, compute.compute(a, b, c));</b>
+<b class="fc"><i>41</i>&nbsp;    }</b>
+<i>42</i>&nbsp;
+<i>43</i>&nbsp;    @ParameterizedTest
+<i>44</i>&nbsp;    @CsvFileSource(resources = &quot;/commission/健壮性最坏情况测试用例.csv&quot;, numLinesToSkip = 1)
+<i>45</i>&nbsp;    void testRobustWorstCaseBoundary(int num, int a, int b, int c, String result) {
+<b class="fc"><i>46</i>&nbsp;        Assert.assertEquals(result, compute.compute(a, b, c));</b>
+<b class="fc"><i>47</i>&nbsp;    }</b>
+<i>48</i>&nbsp;
+<i>49</i>&nbsp;} 
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-05-27 19:31</div>
+</div>
+</body>
+</html>
