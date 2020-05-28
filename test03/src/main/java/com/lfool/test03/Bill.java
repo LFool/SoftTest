@@ -126,11 +126,5 @@ public class Bill {
         return fee;
 
     }
-
-
-    public static void main(String[] args) throws ParseException {
-        String res = charge("2020-10-25 01:59:22", "2020-10-25 02:00:20");
-        System.out.println(res);
-    }
-
+    
 }
