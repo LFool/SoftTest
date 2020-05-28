@@ -1,0 +1,14 @@
+
+v	java:S115""ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(²ßÕ•8ŽÓ«Ý¥.
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(²´äº8ŽÓ«Ý¥.
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ò–ðÍüÿÿÿÿ8ŽÓ«Ý¥.
+H
+java:S1135"2Complete the task associated to this TODO comment.(Üð£Å
+]	java:S125"<This block of commented-out lines of code should be removed.(š‡ •øÿÿÿÿ8ŽÓ«Ý¥.
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ÿ–ûØùÿÿÿÿ8ŽÓ«Ý¥.
+c
+java:S1192a"FDefine a constant instead of duplicating this literal "color" 3 times.(—êß8ŽÓ«Ý¥.
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¾ÅåŒýÿÿÿÿ8ŽÓ«Ý¥.
+{	java:S115#"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(›Æ˜»ûÿÿÿÿ8ŽÓ«Ý¥.
+X	java:S125"<This block of commented-out lines of code should be removed.(äÓ›Ð8ŽÓ«Ý¥.
+{	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ž¦ÏÂùÿÿÿÿ8ŽÓ«Ý¥.

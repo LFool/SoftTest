@@ -1,0 +1,14 @@
+
+I
+java:S1128",Remove this unused import 'org.junit.After'.(«ñÖ«8ĞƒƒÓ¥.
+J
+java:S1128"-Remove this unused import 'org.junit.Before'.(ÙşºÙ8ĞƒƒÓ¥.
+S
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8Ä˜ÊÔ¥.
+^
+java:S1128"<Remove this unused import 'org.junit.runners.Parameterized'.(·Òó³ıÿÿÿÿ8¯¼ÊÔ¥.
+b	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(ü¿êì8ÉÂüÒ¥.
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Ä˜ÊÔ¥.
+R
+java:S1128"5Remove this unused import 'org.junit.runner.RunWith'.(¸ıºô8¯¼ÊÔ¥.
