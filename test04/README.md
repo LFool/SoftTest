@@ -103,4 +103,4 @@
 
 ## Control Flow Graph
 
-![control flow graph](\sootOutput\Diagnosis.png)
+![control flow graph](./sootOutput/Diagnosis.png)
