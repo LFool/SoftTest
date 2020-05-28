@@ -1,0 +1,16 @@
+
+g	java:S112b"FDefine and throw a dedicated exception instead of using a generic one.( ©»ƒûÿÿÿÿ8ÂƒÖ®¥.
+O
+java:S1135"2Complete the task associated to this TODO comment.(Üğ£Å8¬º·­¥.
+c	java:S112’"FDefine and throw a dedicated exception instead of using a generic one.(•¥Šå8ØŞ®¥.
+o
+java:S1450"RRemove the "fos" field and declare it as a local variable in the relevant methods.(ïäà»8¶Ä®¥.
+]	java:S107-"AConstructor has 8 parameters, which is greater than 7 authorized.(¦¿×º8üŒ¾®¥.
+g	java:S112H"FDefine and throw a dedicated exception instead of using a generic one.(ö“†·ùÿÿÿÿ8šË·­¥.
+g	java:S112|"FDefine and throw a dedicated exception instead of using a generic one.(Á·öüÿÿÿÿ8ÂƒÖ®¥.
+z
+java:S1450"XRemove the "csvFormat" field and declare it as a local variable in the relevant methods.(Ë¼ò¥øÿÿÿÿ8ØöÄ®¥.
+t
+java:S1450"RRemove the "osw" field and declare it as a local variable in the relevant methods.(ÅÛˆÊüÿÿÿÿ8ØöÄ®¥.
+J
+java:S1128"-Remove this unused import 'org.junit.Before'.(ÙşºÙ8šĞÇ®¥.
