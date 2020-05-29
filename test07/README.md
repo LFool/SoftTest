@@ -6,7 +6,7 @@
 
 
 
-**[index.html](./build/jacocoHtml.index.html)**
+**[index.html](./build/jacocoHtml/index.html)**
 
 **[Diagnosis.html](./build/jacocoHtml/com.lfool.test07/Diagnosis.html)**
 
