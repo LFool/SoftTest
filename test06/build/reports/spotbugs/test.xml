@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0" sequence="0" timestamp="1590766283903" analysisTimestamp="1590766283910" release="unspecified">
+  <Project projectName="test06 (spotbugsTest)">
+    <Jar>D:\_hhh\softtest\softtest\test06\build\classes\java\test\com\lfool\test06\AppTest.class</Jar>
+    <Jar>D:\_hhh\softtest\softtest\test06\build\classes\java\test\com\lfool\test06\DiagnosisTest.class</Jar>
+    <AuxClasspathEntry>D:\gradle-6.4.1\caches\modules-2\files-2.1\com.google.guava\guava\28.2-jre\8ec9ed76528425762174f0011ce8f74ad845b756\guava-28.2-jre.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle-6.4.1\caches\modules-2\files-2.1\org.projectlombok\lombok\1.18.12\48e4e5d60309ebd833bc528dcf77668eab3cd72c\lombok-1.18.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle-6.4.1\caches\modules-2\files-2.1\org.junit.platform\junit-platform-commons\1.6.0\b0a75795cf03841d4f9cc54099557baffc11c727\junit-platform-commons-1.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle-6.4.1\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-params\5.6.0\b28e078d4e8424de01df02ec92410d225e5d6444\junit-jupiter-params-5.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle-6.4.1\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-api\5.6.0\f29e6318333d2303ce4965c9819cfad08de7d1e5\junit-jupiter-api-5.6.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle-6.4.1\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle-6.4.1\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle-6.4.1\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle-6.4.1\caches\modules-2\files-2.1\org.checkerframework\checker-qual\2.10.0\5786699a0cb71f9dc32e6cca1d665eef07a0882f\checker-qual-2.10.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle-6.4.1\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.3.4\dac170e4594de319655ffb62f41cbd6dbb5e601e\error_prone_annotations-2.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle-6.4.1\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle-6.4.1\caches\modules-2\files-2.1\org.apiguardian\apiguardian-api\1.1.0\fc9dff4bb36d627bdc553de77e1f17efd790876c\apiguardian-api-1.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\gradle-6.4.1\caches\modules-2\files-2.1\org.opentest4j\opentest4j\1.2.0\28c11eb91f9b6d8e200631d46e20a7f407f2a046\opentest4j-1.2.0.jar</AuxClasspathEntry>
+    <SrcDir>D:\_hhh\softtest\softtest\test06\src\test\resources</SrcDir>
+    <SrcDir>D:\_hhh\softtest\softtest\test06\src\test\java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="3">
+    <MissingClass>com.lfool.test06.App</MissingClass>
+    <MissingClass>com.lfool.test06.Diagnosis</MissingClass>
+    <MissingClass>com.lfool.test06.pojo.Situation</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Fri, 29 May 2020 23:31:23 +0800" total_classes="2" referenced_classes="16" total_bugs="0" total_size="14" num_packages="1" java_version="1.8.0_191" vm_version="25.191-b12" cpu_seconds="2.97" clock_seconds="0.81" peak_mbytes="200.30" alloc_mbytes="455.50" gc_seconds="0.02">
+    <FileStats path="com/lfool/test06/AppTest.java" bugCount="0" size="7"/>
+    <FileStats path="com/lfool/test06/DiagnosisTest.java" bugCount="0" size="7"/>
+    <PackageStats package="com.lfool.test06" total_bugs="0" total_types="2" total_size="14">
+      <ClassStats class="com.lfool.test06.AppTest" sourceFile="AppTest.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.lfool.test06.DiagnosisTest" sourceFile="DiagnosisTest.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="254" invocations="339" avgMicrosecondsPerInvocation="751" maxMicrosecondsPerInvocation="21891" standardDeviationMicrosecondsPerInvocation="2051"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="57" invocations="342" avgMicrosecondsPerInvocation="167" maxMicrosecondsPerInvocation="22742" standardDeviationMicrosecondsPerInvocation="1233"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="36" invocations="305" avgMicrosecondsPerInvocation="119" maxMicrosecondsPerInvocation="2296" standardDeviationMicrosecondsPerInvocation="291"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="26" invocations="31" avgMicrosecondsPerInvocation="854" maxMicrosecondsPerInvocation="7081" standardDeviationMicrosecondsPerInvocation="1253"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="25" invocations="16" avgMicrosecondsPerInvocation="1597" maxMicrosecondsPerInvocation="19450" standardDeviationMicrosecondsPerInvocation="4657"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="23" invocations="16" avgMicrosecondsPerInvocation="1492" maxMicrosecondsPerInvocation="6498" standardDeviationMicrosecondsPerInvocation="1947"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="23" invocations="16" avgMicrosecondsPerInvocation="1450" maxMicrosecondsPerInvocation="8625" standardDeviationMicrosecondsPerInvocation="2389"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

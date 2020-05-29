@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.2" timestamp="2020-05-29T23:31:23.206">
+<file name="D:\_hhh\softtest\softtest\test06\src\main\java\com\lfool\test06\App.java">
+<violation beginline="6" endline="14" begincolumn="8" endcolumn="1" rule="ClassMustHaveAuthorRule" ruleset="AlibabaJavaComments" package="com.lfool.test06" class="App" priority="3">
+【App】缺少包含@author的注释信息
+</violation>
+</file>
+<file name="D:\_hhh\softtest\softtest\test06\src\main\java\com\lfool\test06\Diagnosis.java">
+<violation beginline="10" endline="30" begincolumn="8" endcolumn="1" rule="ClassMustHaveAuthorRule" ruleset="AlibabaJavaComments" package="com.lfool.test06" class="Diagnosis" priority="3">
+【Diagnosis】注释缺少@author信息
+</violation>
+</file>
+<file name="D:\_hhh\softtest\softtest\test06\src\main\java\com\lfool\test06\pojo\Situation.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Import Statements" package="com.lfool.test06.pojo" class="Situation" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'lombok.AllArgsConstructor'
+</violation>
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="19" rule="UnusedImports" ruleset="Import Statements" package="com.lfool.test06.pojo" class="Situation" externalInfoUrl="https://pmd.github.io/pmd-5.5.2/pmd-java/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'lombok.Data'
+</violation>
+<violation beginline="11" endline="36" begincolumn="8" endcolumn="1" rule="ClassMustHaveAuthorRule" ruleset="AlibabaJavaComments" package="com.lfool.test06.pojo" class="Situation" priority="3">
+【Situation】注释缺少@author信息
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.27">
+<file name="D:\_hhh\softtest\softtest\test06\src\test\java\com\lfool\test06\AppTest.java">
+<error line="7" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.junit.jupiter.api.Assertions.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="D:\_hhh\softtest\softtest\test06\src\test\java\com\lfool\test06\DiagnosisTest.java">
+<error line="7" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.junit.jupiter.api.Assertions.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+</checkstyle>
