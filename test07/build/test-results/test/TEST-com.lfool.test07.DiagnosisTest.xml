@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lfool.test07.DiagnosisTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-05-29T16:58:59" hostname="LF" time="0.053">
+  <properties/>
+  <testcase name="testJudge(int, boolean, boolean, int)[1]" classname="com.lfool.test07.DiagnosisTest" time="0.039"/>
+  <testcase name="testJudge(int, boolean, boolean, int)[2]" classname="com.lfool.test07.DiagnosisTest" time="0.002"/>
+  <testcase name="testJudge(int, boolean, boolean, int)[3]" classname="com.lfool.test07.DiagnosisTest" time="0.001"/>
+  <testcase name="testJudge(int, boolean, boolean, int)[4]" classname="com.lfool.test07.DiagnosisTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.lfool.test07.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-29T16:58:59" hostname="LF" time="0.033">
+  <properties/>
+  <testcase name="appHasAGreeting()" classname="com.lfool.test07.AppTest" time="0.033"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
