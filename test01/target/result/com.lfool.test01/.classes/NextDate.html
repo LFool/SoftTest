@@ -1,0 +1,262 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: NextDate</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">com.lfool.test01</a> ]
+</div>
+
+<h1>Coverage Summary for Class: NextDate (com.lfool.test01)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">NextDate</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    85.7%
+  </span>
+  <span class="absValue">
+    (6/ 7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    93.8%
+  </span>
+  <span class="absValue">
+    (45/ 48)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package com.lfool.test01;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;/**
+<i>4</i>&nbsp; * @ClassName: NextData
+<i>5</i>&nbsp; * @Description: TODO
+<i>6</i>&nbsp; * @Author: LFool
+<i>7</i>&nbsp; * @Date: 2020/5/26 22:29
+<i>8</i>&nbsp; * @Version: 1.0
+<i>9</i>&nbsp; */
+<b class="nc"><i>10</i>&nbsp;public class NextDate {</b>
+<i>11</i>&nbsp;
+<i>12</i>&nbsp;    /*********************************************************
+<i>13</i>&nbsp;     **Method: run
+<i>14</i>&nbsp;     **Returns: string
+<i>15</i>&nbsp;     **Description: This method will return a string depicting the nextDate in the from MM/DD/YY
+<i>16</i>&nbsp;     ***********************************************************/
+<i>17</i>&nbsp;
+<i>18</i>&nbsp;    public static String run(int month, int day, int year) {
+<i>19</i>&nbsp;
+<i>20</i>&nbsp;        /* Restrictions that the year must have the following invariant: 1801 &lt;= year &lt;= 2021 */
+<b class="fc"><i>21</i>&nbsp;        if (day &lt; 1 || month &lt; 1 || month &gt;12 || year &lt; 1801 || year &gt; 2021) {</b>
+<b class="nc"><i>22</i>&nbsp;            return &quot;invalid Input Date&quot;;</b>
+<i>23</i>&nbsp;        }
+<i>24</i>&nbsp;
+<i>25</i>&nbsp;        /* these variables will hold the proper values for the nextDate&#39;s day, month, and year values, respectively */
+<b class="fc"><i>26</i>&nbsp;        int tomorrowDay = day;</b>
+<b class="fc"><i>27</i>&nbsp;        int tomorrowMonth = month;</b>
+<b class="fc"><i>28</i>&nbsp;        int tomorrowYear = year;</b>
+<i>29</i>&nbsp;
+<i>30</i>&nbsp;        /* Is this month with 31 days? */
+<b class="fc"><i>31</i>&nbsp;        if(isThirtyOneDayMonth(month)) {</b>
+<i>32</i>&nbsp;            /* if the day is not 31, just increment the day */
+<b class="fc"><i>33</i>&nbsp;            if (day &lt; 31) {</b>
+<b class="fc"><i>34</i>&nbsp;                tomorrowDay = day +1;</b>
+<i>35</i>&nbsp;            } else{ //day = 31, set tomorrow&#39;s day to 1 and increment the month
+<b class="fc"><i>36</i>&nbsp;                tomorrowDay = 1;</b>
+<b class="fc"><i>37</i>&nbsp;                tomorrowMonth = month + 1;</b>
+<i>38</i>&nbsp;            }
+<i>39</i>&nbsp;        }
+<i>40</i>&nbsp;        /* is this month a month with 30 days? */
+<b class="fc"><i>41</i>&nbsp;        else if (isThirtyDayMonth(month)) {</b>
+<i>42</i>&nbsp;            /* if the day is not 30, just increment the day */
+<b class="fc"><i>43</i>&nbsp;            if(day &lt;30){</b>
+<b class="fc"><i>44</i>&nbsp;                tomorrowDay = day + 1;</b>
+<i>45</i>&nbsp;            } else {
+<b class="fc"><i>46</i>&nbsp;                if (day == 30) {</b>
+<b class="fc"><i>47</i>&nbsp;                    tomorrowDay = 1;</b>
+<b class="fc"><i>48</i>&nbsp;                    tomorrowMonth = month + 1;</b>
+<i>49</i>&nbsp;                } else { //invalid input ... too many days
+<b class="fc"><i>50</i>&nbsp;                    return &quot;Invalid Input Date&quot;;</b>
+<i>51</i>&nbsp;                }
+<i>52</i>&nbsp;            }
+<i>53</i>&nbsp;
+<i>54</i>&nbsp;        }
+<i>55</i>&nbsp;        /* is this month December? */
+<b class="fc"><i>56</i>&nbsp;        else if(isDecember(month)) {</b>
+<i>57</i>&nbsp;            /* if the day is not 31, just increment the next day */
+<b class="fc"><i>58</i>&nbsp;            if (day &lt; 31) {</b>
+<b class="fc"><i>59</i>&nbsp;                tomorrowDay = day + 1;</b>
+<i>60</i>&nbsp;            } else { // day is 31, reset the day and month to 1 and increment the year
+<b class="fc"><i>61</i>&nbsp;                tomorrowDay = 1;</b>
+<b class="fc"><i>62</i>&nbsp;                tomorrowMonth = 1;</b>
+<i>63</i>&nbsp;                /* m ake sure the next year is within ht permissible range */
+<b class="fc"><i>64</i>&nbsp;                if (year == 2021) {</b>
+<b class="nc"><i>65</i>&nbsp;                    return &quot;Invalid Next Year&quot;;</b>
+<i>66</i>&nbsp;                } else {  //it was a permissible year - go ahead and increment the year
+<b class="fc"><i>67</i>&nbsp;                    tomorrowYear = year + 1;</b>
+<i>68</i>&nbsp;                }
+<i>69</i>&nbsp;            }
+<i>70</i>&nbsp;        }
+<i>71</i>&nbsp;        //is this month February? we need to check for leap years and such
+<b class="fc"><i>72</i>&nbsp;        else if(isFebruary(month)) {</b>
+<i>73</i>&nbsp;            /* just a standard day - increment the day */
+<b class="fc"><i>74</i>&nbsp;            if(day &lt; 28) {</b>
+<b class="fc"><i>75</i>&nbsp;                tomorrowDay =day +1;</b>
+<i>76</i>&nbsp;            } else {
+<i>77</i>&nbsp;                /* if this is not a leap year, reset day and increment the day */
+<b class="fc"><i>78</i>&nbsp;                if(day == 28) {</b>
+<i>79</i>&nbsp;                    /* was a leap year */
+<b class="fc"><i>80</i>&nbsp;                    if (isLeapYear(year)) {</b>
+<b class="fc"><i>81</i>&nbsp;                        tomorrowDay = 29;</b>
+<i>82</i>&nbsp;                    } else {  // was not a leap year
+<b class="fc"><i>83</i>&nbsp;                        tomorrowDay = 1;</b>
+<b class="fc"><i>84</i>&nbsp;                        tomorrowMonth = 3;</b>
+<i>85</i>&nbsp;                    }
+<i>86</i>&nbsp;                    /* 29th date of February */
+<b class="fc"><i>87</i>&nbsp;                } else if(day == 29){</b>
+<i>88</i>&nbsp;                    /* AND a leap year - reset the day to 1, month to 3 */
+<b class="fc"><i>89</i>&nbsp;                    if (isLeapYear(year)) {</b>
+<b class="fc"><i>90</i>&nbsp;                        tomorrowDay = 1;</b>
+<b class="fc"><i>91</i>&nbsp;                        tomorrowMonth = 3;</b>
+<i>92</i>&nbsp;                    } else {
+<b class="fc"><i>93</i>&nbsp;                        return &quot;Invalid Input Date&quot;;</b>
+<i>94</i>&nbsp;                    }
+<i>95</i>&nbsp;                    /* invalid input as February will never have more than 29 days */
+<i>96</i>&nbsp;                } else {
+<b class="fc"><i>97</i>&nbsp;                    return &quot;Invalid Input Date&quot;;</b>
+<i>98</i>&nbsp;                }
+<i>99</i>&nbsp;            }
+<i>100</i>&nbsp;        }
+<i>101</i>&nbsp;        /* return the string representing the nextDate, in the form MM/DD/YY */
+<b class="fc"><i>102</i>&nbsp;        return tomorrowMonth + &quot;/&quot; + tomorrowDay + &quot;/&quot; + tomorrowYear;</b>
+<i>103</i>&nbsp;
+<i>104</i>&nbsp;    }
+<i>105</i>&nbsp;
+<i>106</i>&nbsp;
+<i>107</i>&nbsp;    /*********************************************
+<i>108</i>&nbsp;     * Method: isThirtyOneDayMonth
+<i>109</i>&nbsp;     * @param month
+<i>110</i>&nbsp;     * @returns boolean
+<i>111</i>&nbsp;     * Description: This method will return true is &#39;month&#39; corresponds to a
+<i>112</i>&nbsp;     * month that contains 31 days, excluding December
+<i>113</i>&nbsp;     */
+<i>114</i>&nbsp;
+<i>115</i>&nbsp;    private static boolean isThirtyOneDayMonth(int month) {
+<b class="fc"><i>116</i>&nbsp;        return month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10;</b>
+<i>117</i>&nbsp;    }
+<i>118</i>&nbsp;
+<i>119</i>&nbsp;
+<i>120</i>&nbsp;    /*************************************************
+<i>121</i>&nbsp;     * Method: isThirtyDayMonth
+<i>122</i>&nbsp;     * @param month
+<i>123</i>&nbsp;     * @returns boolean
+<i>124</i>&nbsp;     * Description: This method will return true if &#39;month&#39; corresponds to a
+<i>125</i>&nbsp;     * month that contains 30 days.	 *
+<i>126</i>&nbsp;     */
+<i>127</i>&nbsp;
+<i>128</i>&nbsp;    private static boolean isThirtyDayMonth(int month) {
+<b class="fc"><i>129</i>&nbsp;        return month == 4 || month == 6 || month == 9 || month == 11;</b>
+<i>130</i>&nbsp;    }
+<i>131</i>&nbsp;
+<i>132</i>&nbsp;
+<i>133</i>&nbsp;    /**************************************************
+<i>134</i>&nbsp;     * Method: isDecember
+<i>135</i>&nbsp;     * @param month
+<i>136</i>&nbsp;     * @returns boolean
+<i>137</i>&nbsp;     * Description: This method will return true if &#39;month&#39; corresponds to
+<i>138</i>&nbsp;     * December
+<i>139</i>&nbsp;     */
+<i>140</i>&nbsp;
+<i>141</i>&nbsp;    private static boolean isDecember(int month) {
+<b class="fc"><i>142</i>&nbsp;        return month == 12;</b>
+<i>143</i>&nbsp;    }
+<i>144</i>&nbsp;
+<i>145</i>&nbsp;
+<i>146</i>&nbsp;    /****************************************************
+<i>147</i>&nbsp;     * Method: isFebruary
+<i>148</i>&nbsp;     * @param month
+<i>149</i>&nbsp;     * @returns boolean
+<i>150</i>&nbsp;     * Description: This method will return true if &#39;month&#39; corresponds to
+<i>151</i>&nbsp;     * February
+<i>152</i>&nbsp;     */
+<i>153</i>&nbsp;
+<i>154</i>&nbsp;    private static boolean isFebruary(int month) {
+<b class="fc"><i>155</i>&nbsp;        return month == 2;</b>
+<i>156</i>&nbsp;    }
+<i>157</i>&nbsp;
+<i>158</i>&nbsp;
+<i>159</i>&nbsp;    /*****************************************************
+<i>160</i>&nbsp;     * Method: isLeapYear
+<i>161</i>&nbsp;     * @param year
+<i>162</i>&nbsp;     * @returns boolean
+<i>163</i>&nbsp;     * Description: This method will return true if &#39;year&#39; corresponds to a
+<i>164</i>&nbsp;     * leap year. It works like this:
+<i>165</i>&nbsp;     * 			*If the year is not a century year and divisible by 4,
+<i>166</i>&nbsp;     * 			then it is a leap year
+<i>167</i>&nbsp;     * 			*If the year is a century year, it is a leap year if and only if
+<i>168</i>&nbsp;     * 			it is divisible by 400
+<i>169</i>&nbsp;     */
+<i>170</i>&nbsp;
+<i>171</i>&nbsp;    private static boolean isLeapYear(int year) {
+<b class="fc"><i>172</i>&nbsp;        if((year % 100) == 0) {</b>
+<b class="fc"><i>173</i>&nbsp;            return (year % 400) == 0;</b>
+<i>174</i>&nbsp;        } else {
+<b class="fc"><i>175</i>&nbsp;            return (year % 4) == 0;</b>
+<i>176</i>&nbsp;        }
+<i>177</i>&nbsp;    }
+<i>178</i>&nbsp;
+<i>179</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-05-29 14:41</div>
+</div>
+</body>
+</html>

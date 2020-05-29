@@ -1,0 +1,126 @@
+用例编号,v1,v2,v3,期望值
+1,1,1,1,Equilateral
+2,1,1,2,Not a triangle
+3,1,1,50,Not a triangle
+4,1,1,99,Not a triangle
+5,1,1,100,Not a triangle
+6,1,2,1,Not a triangle
+7,1,2,2,Isosceles
+8,1,2,50,Not a triangle
+9,1,2,99,Not a triangle
+10,1,2,100,Not a triangle
+11,1,50,1,Not a triangle
+12,1,50,2,Not a triangle
+13,1,50,50,Isosceles
+14,1,50,99,Not a triangle
+15,1,50,100,Not a triangle
+16,1,99,1,Not a triangle
+17,1,99,2,Not a triangle
+18,1,99,50,Not a triangle
+19,1,99,99,Isosceles
+20,1,99,100,Not a triangle
+21,1,100,1,Not a triangle
+22,1,100,2,Not a triangle
+23,1,100,50,Not a triangle
+24,1,100,99,Not a triangle
+25,1,100,100,Isosceles
+26,2,1,1,Not a triangle
+27,2,1,2,Isosceles
+28,2,1,50,Not a triangle
+29,2,1,99,Not a triangle
+30,2,1,100,Not a triangle
+31,2,2,1,Isosceles
+32,2,2,2,Equilateral
+33,2,2,50,Not a triangle
+34,2,2,99,Not a triangle
+35,2,2,100,Not a triangle
+36,2,50,1,Not a triangle
+37,2,50,2,Not a triangle
+38,2,50,50,Isosceles
+39,2,50,99,Not a triangle
+40,2,50,100,Not a triangle
+41,2,99,1,Not a triangle
+42,2,99,2,Not a triangle
+43,2,99,50,Not a triangle
+44,2,99,99,Isosceles
+45,2,99,100,Scalene
+46,2,100,1,Not a triangle
+47,2,100,2,Not a triangle
+48,2,100,50,Not a triangle
+49,2,100,99,Scalene
+50,2,100,100,Isosceles
+51,50,1,1,Not a triangle
+52,50,1,2,Not a triangle
+53,50,1,50,Isosceles
+54,50,1,99,Not a triangle
+55,50,1,100,Not a triangle
+56,50,2,1,Not a triangle
+57,50,2,2,Not a triangle
+58,50,2,50,Isosceles
+59,50,2,99,Not a triangle
+60,50,2,100,Not a triangle
+61,50,50,1,Isosceles
+62,50,50,2,Isosceles
+63,50,50,50,Equilateral
+64,50,50,99,Isosceles
+65,50,50,100,Not a triangle
+66,50,99,1,Not a triangle
+67,50,99,2,Not a triangle
+68,50,99,50,Isosceles
+69,50,99,99,Isosceles
+70,50,99,100,Scalene
+71,50,100,1,Not a triangle
+72,50,100,2,Not a triangle
+73,50,100,50,Not a triangle
+74,50,100,99,Scalene
+75,50,100,100,Isosceles
+76,99,1,1,Not a triangle
+77,99,1,2,Not a triangle
+78,99,1,50,Not a triangle
+79,99,1,99,Isosceles
+80,99,1,100,Not a triangle
+81,99,2,1,Not a triangle
+82,99,2,2,Not a triangle
+83,99,2,50,Not a triangle
+84,99,2,99,Isosceles
+85,99,2,100,Scalene
+86,99,50,1,Not a triangle
+87,99,50,2,Not a triangle
+88,99,50,50,Isosceles
+89,99,50,99,Isosceles
+90,99,50,100,Scalene
+91,99,99,1,Isosceles
+92,99,99,2,Isosceles
+93,99,99,50,Isosceles
+94,99,99,99,Equilateral
+95,99,99,100,Isosceles
+96,99,100,1,Not a triangle
+97,99,100,2,Scalene
+98,99,100,50,Scalene
+99,99,100,99,Isosceles
+100,99,100,100,Isosceles
+101,100,1,1,Not a triangle
+102,100,1,2,Not a triangle
+103,100,1,50,Not a triangle
+104,100,1,99,Not a triangle
+105,100,1,100,Isosceles
+106,100,2,1,Not a triangle
+107,100,2,2,Not a triangle
+108,100,2,50,Not a triangle
+109,100,2,99,Scalene
+110,100,2,100,Isosceles
+111,100,50,1,Not a triangle
+112,100,50,2,Not a triangle
+113,100,50,50,Not a triangle
+114,100,50,99,Scalene
+115,100,50,100,Isosceles
+116,100,99,1,Not a triangle
+117,100,99,2,Scalene
+118,100,99,50,Scalene
+119,100,99,99,Isosceles
+120,100,99,100,Isosceles
+121,100,100,1,Isosceles
+122,100,100,2,Isosceles
+123,100,100,50,Isosceles
+124,100,100,99,Isosceles
+125,100,100,100,Equilateral

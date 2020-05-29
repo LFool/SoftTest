@@ -13,3 +13,7 @@ e
 .src/main/java/com/lfool/test01/Commission.java,2\4\248b0db308f7a682e1293b20567af115d2b555a0
 g
 7src/main/java/test/com/lfool/test01/CommissionTest.java,0\3\0306642d5f0e82df19b991efe1ae1c802cde5d53
+`
+0src/test/java/com/lfool/test01/TriangleTest.java,f\a\faac9d9224a3b5d2c6992bb9c80f57e8a47bfc4b
+b
+2src/test/java/com/lfool/test01/CommissionTest.java,8\2\82bb661f46671884247b1d4fc183cb4c00d221e8

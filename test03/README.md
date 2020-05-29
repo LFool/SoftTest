@@ -8,9 +8,9 @@
 
 **[Source Code](./src/main/java/com/lfool/test03/Bill.java)**
 
-**[Test Code](./src/main/java/test/com/lfool/test03/BillTest.java)**
+**[Test Code](./src/test/java/com/lfool/test03/BillTest.java)**
 
-**[Test Data](./src/main/resources/testData.csv)**
+**[Test Data](./src/test/resources/testData.csv)**
 
 
 

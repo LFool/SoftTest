@@ -8,9 +8,9 @@
 
 **[Source Code](./src/main/java/com/lfool/test04/Diagnosis.java)**
 
-**[Test Code](./src/main/java/test/com/lfool/test04/DiagnosisTest.java)**
+**[Test Code](./src/test/java/com/lfool/test04/DiagnosisTest.java)**
 
-**[Decision Table](./src/main/resources/decisionTable.csv)**
+**[Decision Table](./src/test/resources/decisionTable.csv)**
 
 
 

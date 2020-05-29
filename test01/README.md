@@ -8,7 +8,7 @@
 
 **[Source Code](./src/main/java/com/lfool/test01/Triangle.java)**
 
-**[Test Code](./src/main/java/test/com/lfool/test01/TriangleTest.java)**
+**[Test Code](./src/test/java/com/lfool/test01/TriangleTest.java)**
 
 
 
@@ -18,7 +18,7 @@
 
 **[Source Code](./src/main/java/com/lfool/test01/NextDate.java)**
 
-**[Test Code](./src/main/java/test/com/lfool/test01/NextDateTest.java)**
+**[Test Code](./src/test/java/com/lfool/test01/NextDateTest.java)**
 
 
 
@@ -28,7 +28,7 @@
 
 **[Source Code](./src/main/java/com/lfool/test01/Commission.java)**
 
-**[Test Code](./src/main/java/test/com/lfool/test01/CommissionTest.java)**
+**[Test Code](./src/test/java/com/lfool/test01/CommissionTest.java)**
 
 
 

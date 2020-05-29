@@ -1,0 +1,16 @@
+
+`	java:S112z"FDefine and throw a dedicated exception instead of using a generic one.(Á·öüÿÿÿÿ
+h
+java:S1450"RRemove the "fos" field and declare it as a local variable in the relevant methods.(ïäà»
+V	java:S107+"AConstructor has 8 parameters, which is greater than 7 authorized.(¦¿×º
+\	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(•¥Šå
+`	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.( ©»ƒûÿÿÿÿ
+s
+java:S1450"XRemove the "csvFormat" field and declare it as a local variable in the relevant methods.(Ë¼ò¥øÿÿÿÿ
+m
+java:S1450"RRemove the "osw" field and declare it as a local variable in the relevant methods.(ÅÛˆÊüÿÿÿÿ
+`	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(ö“†·ùÿÿÿÿ
+H
+java:S1135"2Complete the task associated to this TODO comment.(Üğ£Å
+T
+java:S47199"9Replace charset name argument with StandardCharsets.UTF_8(¸¯¢¡şÿÿÿÿ
