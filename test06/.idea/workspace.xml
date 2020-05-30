@@ -19,39 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebdb2d47-3a20-406d-a952-782f933acbca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmd-rules-alibaba.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pmd-rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lfool/test06/Diagnosis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lfool/test06/pojo/Situation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lfool/test06/DiagnosisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/decisionTable.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$CACHE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PROJECT_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lfool/test06/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lfool/test06/TriangleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/一般边界测试用例.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/健壮性最坏情况测试用例.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/健壮测试用例.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/最坏情况测试用例.csv" beforeDir="false" />
-    </list>
+    <list default="true" id="ebdb2d47-3a20-406d-a952-782f933acbca" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +56,12 @@
                 <item name="test06" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="test06" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -231,6 +205,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590763661056</updated>
       <workItem from="1590763662763" duration="2675000" />
+      <workItem from="1590808254871" duration="688000" />
     </task>
     <servers />
   </component>
@@ -247,6 +222,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1590765022447">
@@ -257,22 +233,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590766264168" />
-    <state width="1877" height="314" key="GridCell.Tab.0.bottom" timestamp="1590766343133">
+    <state width="1877" height="314" key="GridCell.Tab.0.bottom" timestamp="1590809246047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590766343133" />
-    <state width="1877" height="314" key="GridCell.Tab.0.center" timestamp="1590766343133">
+    <state width="1877" height="314" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590809246047" />
+    <state width="1877" height="314" key="GridCell.Tab.0.center" timestamp="1590809246047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590766343133" />
-    <state width="1877" height="314" key="GridCell.Tab.0.left" timestamp="1590766343133">
+    <state width="1877" height="314" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590809246047" />
+    <state width="1877" height="314" key="GridCell.Tab.0.left" timestamp="1590809246047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590766343133" />
-    <state width="1877" height="314" key="GridCell.Tab.0.right" timestamp="1590766343133">
+    <state width="1877" height="314" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590809246047" />
+    <state width="1877" height="314" key="GridCell.Tab.0.right" timestamp="1590809246047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="314" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590766343133" />
+    <state width="1877" height="314" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590809246047" />
     <state x="877" y="240" key="SettingsEditor" timestamp="1590766163807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
