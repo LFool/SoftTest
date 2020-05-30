@@ -83,7 +83,7 @@
 <i>9</i>&nbsp; */
 <b class="nc"><i>10</i>&nbsp;public class Commission {</b>
 <i>11</i>&nbsp;
-<i>12</i>&nbsp;    public static int commission(int lock, int stock, int barrel) {
+<i>12</i>&nbsp;    public static double commission(int lock, int stock, int barrel) {
 <b class="fc"><i>13</i>&nbsp;        return salary(sellResult(lock, stock, barrel));</b>
 <i>14</i>&nbsp;    }
 <i>15</i>&nbsp;
@@ -98,18 +98,18 @@
 <i>24</i>&nbsp;
 <b class="fc"><i>25</i>&nbsp;        return lock * 45 + stock * 30 + barrel * 25;</b>
 <i>26</i>&nbsp;    }
-<i>27</i>&nbsp;    private static int salary(int result)
+<i>27</i>&nbsp;    private static double salary(int result)
 <i>28</i>&nbsp;    {
-<b class="fc"><i>29</i>&nbsp;        int pay = 0;</b>
+<b class="fc"><i>29</i>&nbsp;        double pay = 0;</b>
 <b class="fc"><i>30</i>&nbsp;        if (result &lt; 100 || result &gt; 7800) {</b>
 <b class="fc"><i>31</i>&nbsp;            return 0;</b>
 <i>32</i>&nbsp;        }
 <b class="fc"><i>33</i>&nbsp;        if (result &gt; 1800) {</b>
-<b class="nc"><i>34</i>&nbsp;            pay = (result - 1800) * 20 / 100 + 100 + 120;</b>
+<b class="nc"><i>34</i>&nbsp;            pay = (result - 1800) * 20 / 100.0 + 100 + 120;</b>
 <b class="fc"><i>35</i>&nbsp;        } else if (result &gt; 1000) {</b>
-<b class="nc"><i>36</i>&nbsp;            pay = (result - 1000) * 15 / 100 + 100;</b>
+<b class="nc"><i>36</i>&nbsp;            pay = (result - 1000) * 15 / 100.0 + 100;</b>
 <i>37</i>&nbsp;        } else{
-<b class="fc"><i>38</i>&nbsp;            pay = result * 10 / 100;</b>
+<b class="fc"><i>38</i>&nbsp;            pay = result * 10 / 100.0;</b>
 <i>39</i>&nbsp;        }
 <b class="fc"><i>40</i>&nbsp;        return pay;</b>
 <i>41</i>&nbsp;    }
@@ -120,7 +120,7 @@
 
 <div class="footer">
     
-    <div style="float:right;">generated on 2020-05-29 14:41</div>
+    <div style="float:right;">generated on 2020-05-30 17:09</div>
 </div>
 </body>
 </html>

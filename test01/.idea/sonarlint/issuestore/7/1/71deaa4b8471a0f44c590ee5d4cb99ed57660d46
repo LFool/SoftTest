@@ -1,8 +1,0 @@
-
-g	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(Ûì¿šùÿÿÿÿ8àû­¥.
-
-java:S1130:"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Ûì¿šùÿÿÿÿ8àû­¥.
-b	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(ÃÈ¸À8ƒ¸ğ‰¥.
-b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(üÿÜˆ8ƒ¸ğ‰¥.
-j
-java:S1192)"MDefine a constant instead of duplicating this literal "Non triangle" 3 times.(ŠÆ¬¼8’ŸÛ“¥.

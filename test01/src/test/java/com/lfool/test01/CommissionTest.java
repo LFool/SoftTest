@@ -1,38 +1,23 @@
 package com.lfool.test01;
 
-import com.lfool.test01.Commission;
 import lombok.AllArgsConstructor;
-import org.junit.Assert;
 import org.junit.Test;
-import org.junit.Before; 
-import org.junit.After;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 import java.util.Arrays;
 import java.util.Collection;
 
-/**
- * Commission Tester.
- *
- * @author <Authors name>
- * @since <pre>05/27/2020</pre>
- * @version 1.0
- */
+import static org.junit.Assert.assertEquals;
+
 @RunWith(Parameterized.class)
 @AllArgsConstructor
 public class CommissionTest {
 
-    private int lock, stock, barrel;
+    private int lock;
+    private int stock;
+    private int barrel;
     private int commission;
-
-    @Before
-    public void before() throws Exception {
-    }
-
-    @After
-    public void after() throws Exception {
-    }
 
     @Parameterized.Parameters
     public static Collection<Object[]> getData() {
@@ -63,7 +48,7 @@ public class CommissionTest {
      */
     @Test
     public void testCommission() throws Exception {
-        Assert.assertEquals(commission, Commission.commission(lock, stock, barrel));
+        assertEquals(commission, Commission.commission(lock, stock, barrel), 0.01);
     }
 
-} 
+}

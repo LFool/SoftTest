@@ -9,7 +9,7 @@ package com.lfool.test01;
  */
 public class Commission {
 
-    public static int commission(int lock, int stock, int barrel) {
+    public static double commission(int lock, int stock, int barrel) {
         return salary(sellResult(lock, stock, barrel));
     }
 
@@ -24,18 +24,18 @@ public class Commission {
 
         return lock * 45 + stock * 30 + barrel * 25;
     }
-    private static int salary(int result)
+    private static double salary(int result)
     {
-        int pay = 0;
+        double pay = 0;
         if (result < 100 || result > 7800) {
             return 0;
         }
         if (result > 1800) {
-            pay = (result - 1800) * 20 / 100 + 100 + 120;
+            pay = (result - 1800) * 20 / 100.0 + 100 + 120;
         } else if (result > 1000) {
-            pay = (result - 1000) * 15 / 100 + 100;
+            pay = (result - 1000) * 15 / 100.0 + 100;
         } else{
-            pay = result * 10 / 100;
+            pay = result * 10 / 100.0;
         }
         return pay;
     }
