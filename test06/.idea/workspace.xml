@@ -154,7 +154,26 @@
       <recent name="D:\_hhh\softtest\softtest\test06\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.test06 [staticAnalysis]">
+  <component name="RunManager" selected="Gradle.test06 [check]">
+    <configuration name="test06 [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="test06 [pmdMain]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -195,6 +214,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.test06 [check]" />
         <item itemvalue="Gradle.test06 [pmdMain]" />
         <item itemvalue="Gradle.test06 [staticAnalysis]" />
       </list>
