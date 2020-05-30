@@ -1,0 +1,5 @@
+用例号,症状,接触史,期待输出
+1,true,true,1
+2,true,false,2
+3,false,true,3
+4,false,false,4
