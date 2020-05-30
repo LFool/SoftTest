@@ -1,0 +1,18 @@
+
+u
+java:S1192*"SDefine a constant instead of duplicating this literal "Invalid Input Date" 3 times.(—Ριήϋÿÿÿÿ8³γέ¦¦.
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(όÿά8³γέ¦¦.
+b	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(ΓΘΈΐ8³γέ¦¦.
+g	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(Ϊ–οώÿÿÿÿ8³γέ¦¦.
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(όÿά8³γέ¦¦.
+
+java:S1186!"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ΓΘΈΐ8³γέ¦¦.
+C
+java:S1659"!Declare "day" on a separate line.(›Χ΅ώÿÿÿÿ8³γέ¦¦.
+D
+java:S1659""Declare "year" on a separate line.(›Χ΅ώÿÿÿÿ8³γέ¦¦.
+Z
+java:S3878'"8Remove this array creation and simply pass the elements.(ΦΟϋφόÿÿÿÿ8³γέ¦¦.
+
+java:S1130?"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Ϊ–οώÿÿÿÿ8³γέ¦¦.

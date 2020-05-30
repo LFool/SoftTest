@@ -19,31 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5441083e-4be9-4d43-88af-9cab4a1db77a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/test01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/0306642d5f0e82df19b991efe1ae1c802cde5d53" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4abd789f324d2d1c866642294924c7dcb37bf4b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71deaa4b8471a0f44c590ee5d4cb99ed57660d46" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lfool/test01/Commission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lfool/test01/Commission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lfool/test01/CommissionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lfool/test01/CommissionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lfool/test01/NextDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lfool/test01/NextDateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/softtest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lfool/test01/Commission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lfool/test01/Commission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lfool/test01/NextDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lfool/test01/NextDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lfool/test01/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lfool/test01/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/softtest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lfool/test01/CommissionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lfool/test01/CommissionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lfool/test01/NextDateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lfool/test01/NextDateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lfool/test01/TriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/lfool/test01/TriangleTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="5441083e-4be9-4d43-88af-9cab4a1db77a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,9 +30,6 @@
   </component>
   <component name="CoverageOptionsProvider">
     <option name="myAddOrReplace" value="1" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="383" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -230,7 +203,7 @@
       <workItem from="1590521535487" duration="135000" />
       <workItem from="1590561687812" duration="24000" />
       <workItem from="1590734387243" duration="135000" />
-      <workItem from="1590828617910" duration="1120000" />
+      <workItem from="1590828617910" duration="1308000" />
     </task>
     <servers />
   </component>
@@ -262,22 +235,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590829408443" />
-    <state width="1877" height="237" key="GridCell.Tab.0.bottom" timestamp="1590829720177">
+    <state width="1877" height="237" key="GridCell.Tab.0.bottom" timestamp="1590829927404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590829720177" />
-    <state width="1877" height="237" key="GridCell.Tab.0.center" timestamp="1590829720177">
+    <state width="1877" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590829927404" />
+    <state width="1877" height="237" key="GridCell.Tab.0.center" timestamp="1590829927404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590829720177" />
-    <state width="1877" height="237" key="GridCell.Tab.0.left" timestamp="1590829720177">
+    <state width="1877" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590829927404" />
+    <state width="1877" height="237" key="GridCell.Tab.0.left" timestamp="1590829927404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590829720177" />
-    <state width="1877" height="237" key="GridCell.Tab.0.right" timestamp="1590829720177">
+    <state width="1877" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590829927404" />
+    <state width="1877" height="237" key="GridCell.Tab.0.right" timestamp="1590829927404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590829720177" />
+    <state width="1877" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590829927404" />
     <state x="731" y="308" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590829183466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

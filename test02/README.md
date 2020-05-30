@@ -9,6 +9,8 @@
 
 **[Test Code](./src/test/java/com/lfool/test02/TriangleTest.java)**
 
+**[Test Data](./src/test/resources/triangle)**
+
 
 
 ## The NextDate Function
@@ -19,6 +21,8 @@
 
 **[Test Code](./src/test/java/com/lfool/test02/NextDateTest.java)**
 
+**[Test Data](./src/test/resources/nextDate)**
+
 
 
 ## The Commission Problem
@@ -28,6 +32,8 @@
 **[Source Code](./src/main/java/com/lfool/test02/Commission.java)**
 
 **[Test Code](./src/test/java/com/lfool/test02/CommissionTest.java)**
+
+**[Test Data](./src/test/resources/commission)**
 
 
 
