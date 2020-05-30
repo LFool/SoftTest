@@ -1,4 +1,18 @@
-# JPacman
+# 实验九 - JPacman
+
+
+
+**[DirectionTest.java](./src/test/java/nl/tudelft/jpacman/board/DirectionTest.java)**
+
+
+
+**[OccupantTest.java](./src/test/java/nl/tudelft/jpacman/board/OccupantTest.java)**
+
+
+
+
+
+
 
 [![Build Status](https://travis-ci.com/SERG-Delft/jpacman.svg?branch=master)](https://travis-ci.com/SERG-Delft/jpacman)
 
@@ -36,4 +50,4 @@ Main contributors:
 3. To run the test suite and static analysis tools: `./gradlew check`
     1. For tests only run `./gradlew test`
     2. For static analysis tools only run `./gradlew staticAnalysis`
-	 
+	
